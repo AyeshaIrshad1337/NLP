@@ -1,2 +1,3 @@
 # NLP
-NLP work
+What is NLP?  
+NLP = natural learning Programming
