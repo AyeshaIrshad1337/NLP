@@ -21,4 +21,6 @@ NLP = natural learning Programmin
 + Scikit-learn https://scikit-learn.org/stable/getting_started.html
 + TensorFlow https://www.tensorflow.org/learn
 + Keras https://keras.io/
-+ PyTorch https://pytorch.or
++ PyTorch https://pytorch.org
++ Hugging Face transformers https://huggingface.co/docs/transformers/main/en/index
++ JAX https://jax.readthedocs.io/en/latest/notebooks/quickstart.html
