@@ -72,3 +72,6 @@ NLP = natural learning Programmin
 + https://www.imdb.com/interfaces/
 
 + https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/
+## Reading from a Word Document
++ To read the Word Document you need to install python-docx library
+The whole step is shown in file name **RWordDoc.ipynb**
