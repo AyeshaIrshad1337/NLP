@@ -75,3 +75,11 @@ NLP = natural learning Programmin
 ## Reading from a Word Document
 + To read the Word Document you need to install python-docx library
 The whole step is shown in file name **RWordDoc.ipynb**
+## Data Preprocessing in NLP
+It involves
++ Data cleaning and preprocessing
++ Visualization
++ Data Augmentation
++ Distance metrics
++ Modeling
++ Model Evaluation
