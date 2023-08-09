@@ -85,3 +85,4 @@ It involves
 + Model Evaluation
 ### Segmentation
 While running Segmentation.ipynb file from repo , run this command in bash : python -m spacy download en_core_web_sm
+testing g
