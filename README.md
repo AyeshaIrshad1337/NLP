@@ -85,3 +85,6 @@ It involves
 + Model Evaluation
 ### Segmentation
 While running Segmentation.ipynb file from repo , run this command in bash : python -m spacy download en_core_web_sm
+### WOrd tokenization 
+YOu will find the repo by name of WordTokenization.ipynb   
+Word Tokenization can be done by three different library textblob, Nltk, Spacy .. you will find the example code in the repo
