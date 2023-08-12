@@ -88,7 +88,7 @@ While running Segmentation.ipynb file from repo , run this command in bash : pyt
 ### WOrd tokenization 
 YOu will find the repo by name of WordTokenization.ipynb   
 Word Tokenization can be done by three different library textblob, Nltk, Spacy .. you will find the example code in the repo
-### Part of Speech Tagging
+### Part of Speech Tagging (Day 7)
 You will find the code in POS.ipynb  
 Part Of speech is also known as POS tagging
 it might be desired to retain only certain parts of speech, such as nouns. The use cases can be cleaning data before creating a word-counts (bag-of-words) model or further processing that depends on parts of speech, such as named entity recognition (where two nouns occurring together are likely first and last names of a person) and keyphrase extraction.
