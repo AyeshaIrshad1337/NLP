@@ -92,3 +92,5 @@ Word Tokenization can be done by three different library textblob, Nltk, Spacy .
 You will find the code in POS.ipynb  
 Part Of speech is also known as POS tagging
 it might be desired to retain only certain parts of speech, such as nouns. The use cases can be cleaning data before creating a word-counts (bag-of-words) model or further processing that depends on parts of speech, such as named entity recognition (where two nouns occurring together are likely first and last names of a person) and keyphrase extraction.
+### N-grams
+N-grams are a contiguous Sequence of N elements. For instance "Natural", "Language" and "processing" are unigrams,"natural language" and "language processing" are bigrams, and "natural language processing" is the trigram of the strirng "natural language processing"
