@@ -96,4 +96,4 @@ it might be desired to retain only certain parts of speech, such as nouns. The u
 **You will find N-gram code in N-gram.ipynb file**
 N-grams are a contiguous Sequence of N elements. For instance "Natural", "Language" and "processing" are unigrams,"natural language" and "language processing" are bigrams, and "natural language processing" is the trigram of the strirng "natural language processing"  
 In many NLP feature generation methods, each word in a sentence is used as an independent unit (token) while encoding data. Instead, getting multi word pairs from a sentence can be beneficial for certain application that contain multi-word keywords or sentiment analysis.
-For example: "not happy" bigram
+For example: "not happy" bigram versys 'happy' unigram can convet different sentiments for the sentence 'James is not happy'
