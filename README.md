@@ -104,5 +104,5 @@ In regex:
 + \m matches a newline character
 + \w is a word character that matches any single letter number, or underscore (same as [a-zA-Z0-9])
 + \s is for matching white spaces
-+ ^ is for matching with everything except the pattren specified
++ ^ is for matching with everything except the pattren specified  
 **You will find Punctuation Removel code in PR.ipynb**
