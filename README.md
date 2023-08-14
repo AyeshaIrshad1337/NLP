@@ -97,3 +97,9 @@ it might be desired to retain only certain parts of speech, such as nouns. The u
 N-grams are a contiguous Sequence of N elements. For instance "Natural", "Language" and "processing" are unigrams,"natural language" and "language processing" are bigrams, and "natural language processing" is the trigram of the strirng "natural language processing"  
 In many NLP feature generation methods, each word in a sentence is used as an independent unit (token) while encoding data. Instead, getting multi word pairs from a sentence can be beneficial for certain application that contain multi-word keywords or sentiment analysis.
 For example: "not happy" bigram versys 'happy' unigram can convet different sentiments for the sentence 'James is not happy'
+## Cleaning
+### Punctuation removal
+or many applications such as category classification and word visualizations, the words used in the text matter and the punctuation does not have relevance to the application. Punctuation can be removed using a regex expression.  
+In regex: 
++ \m matches a newline character
++ \w is a word character that matches any single letter number, or underscore
