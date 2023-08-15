@@ -106,7 +106,7 @@ In regex:
 + \s is for matching white spaces
 + ^ is for matching with everything except the pattren specified  
 **You will find Punctuation Removel code in PR.ipynb**
-### URL removal
+### URL removal (Day 10)
 In language document URL removal can be beneficial in reducing overall text length and removing information that does not convet meaning for your application  
 In regex, \s matches all whits-spaces character and \S matches with non white spcaed characters
 + | stands for OR and can be used when we want to match multiple pattren with the OR logic.
