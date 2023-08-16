@@ -115,3 +115,6 @@ In regex, \s matches all whits-spaces character and \S matches with non white sp
 Unicode is an international standard that maintains a mapping of individual character and unique number acrrross devices and programs.  
 Each character is represented as a code point.   
 These code point are encoded in bytes and can be decoded back to code points.
++ UTF-8 is an encoding system for Unicode. UTF-8 uses 1, 2, 3, and 4 bytes to encode every code point.  
+In the Unicode standard, an emoji is represented as a code. For example \U0001F600 is the combination that triggers a grimming face across all devices across the world in UTF-8. Thus, regex pattern can be used to remove emoji from the text.
+**You will find the code by EmojiRemove.ipynb**
