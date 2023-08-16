@@ -117,4 +117,5 @@ Each character is represented as a code point.
 These code point are encoded in bytes and can be decoded back to code points.
 + UTF-8 is an encoding system for Unicode. UTF-8 uses 1, 2, 3, and 4 bytes to encode every code point.  
 In the Unicode standard, an emoji is represented as a code. For example \U0001F600 is the combination that triggers a grimming face across all devices across the world in UTF-8. Thus, regex pattern can be used to remove emoji from the text.
-**You will find the code by EmojiRemove.ipynb**
+**You will find the code by EmojiRemove.ipynb**  
+IS this new joke
