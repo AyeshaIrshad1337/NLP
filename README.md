@@ -111,3 +111,5 @@ In language document URL removal can be beneficial in reducing overall text leng
 In regex, \s matches all whits-spaces character and \S matches with non white spcaed characters
 + | stands for OR and can be used when we want to match multiple pattren with the OR logic.
 **You will find the code in url.ipynb file in this repo**
+### Emoji Removal (Day 11)
+Unicode is an international standard that maintains a mapping of individual
