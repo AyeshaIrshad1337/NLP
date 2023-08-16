@@ -112,4 +112,6 @@ In regex, \s matches all whits-spaces character and \S matches with non white sp
 + | stands for OR and can be used when we want to match multiple pattren with the OR logic.
 **You will find the code in url.ipynb file in this repo**
 ### Emoji Removal (Day 11)
-Unicode is an international standard that maintains a mapping of individual
+Unicode is an international standard that maintains a mapping of individual character and unique number acrrross devices and programs.  
+Each character is represented as a code point.   
+These code point are encoded in bytes and can be decoded back to code points.
