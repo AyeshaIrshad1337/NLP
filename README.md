@@ -117,8 +117,10 @@ Each character is represented as a code point.
 These code point are encoded in bytes and can be decoded back to code points.
 + UTF-8 is an encoding system for Unicode. UTF-8 uses 1, 2, 3, and 4 bytes to encode every code point.  
 In the Unicode standard, an emoji is represented as a code. For example \U0001F600 is the combination that triggers a grimming face across all devices across the world in UTF-8. Thus, regex pattern can be used to remove emoji from the text.
-**You will find the code by EmojiRemove.ipynb**  
+**You will find the code by EmojiRemove.ipynb**    
 ### Spelling Checker (Day 12)  
 **You will find the code in sp_check.ipynb**  
 Data Consists of spelling errors or intentional misspellings that fail to get recognized as intended by our models, especially if our models have been trained on cleaner data.  
 In such cases, algorithmically correcting typos can come in handy. Linraries such as pySpellChecker, TextBlob and pyEnchant can be used to accomplish spelling corrections.
+### Stop Words Removal (Day 13)
+Stopwords refers to the commonly occuring words that help connect important terms in a sentence to make it meaningful. However, for many NLP applications they do not represent much meaning by themselves
