@@ -130,3 +130,4 @@ Stopwords refers to the commonly occuring words that help connect important term
 ### Lowercasing 
 For Application where 'Natural Language Processing' , 'natural language processing' , and 'NATURAL LANGUAGE PROCESSING' convey the same meaning, you can lowercase your text or upper case.  
 Lowercasing is a more popular choice among practitioners to standardize text
+**you will find lower casing code in lower.py**
