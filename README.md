@@ -128,4 +128,4 @@ Stopwords refers to the commonly occuring words that help connect important term
 **For Example** : If yu are dealing with YouTube data, then the word "video" may commonly occur without converying a unique meaning across text documents since all of them come from a video source.
 ## Standardization
 ### Lowercasing 
-For Application where 'Natural Language Processing' , 'natural language processing' , and 'NATURAL LANGUAGE PROCESSING'
+For Application where 'Natural Language Processing' , 'natural language processing' , and 'NATURAL LANGUAGE PROCESSING' convey the same meaning, you can lowercase your text as follows.
