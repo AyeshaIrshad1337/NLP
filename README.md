@@ -127,7 +127,8 @@ In such cases, algorithmically correcting typos can come in handy. Linraries suc
 Stopwords refers to the commonly occuring words that help connect important terms in a sentence to make it meaningful. However, for many NLP applications they do not represent much meaning by themselves.Examples include "this" ,"it" ,"are" etc. This is especially useful in application using word occurrence-based features. There are libraries and data sources containing common stop words that you can use as a reference look-up list to remove those words from your text. In practice, it is common to append to an existing stop words list the words specific to your dataset  that are expected to occur commonly but don't convey important information.
 **For Example** : If yu are dealing with YouTube data, then the word "video" may commonly occur without converying a unique meaning across text documents since all of them come from a video source.
 ## Standardization
-### Lowercasing 
+### Lowercasing (Day 14)
 For Application where 'Natural Language Processing' , 'natural language processing' , and 'NATURAL LANGUAGE PROCESSING' convey the same meaning, you can lowercase your text or upper case.  
 Lowercasing is a more popular choice among practitioners to standardize text
 **you will find lower casing code in lower.py**
+### Stemming ( Day 15)
