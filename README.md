@@ -136,3 +136,5 @@ Stemming is the process of producing morphological varaints of a root word These
 `` scanned -> scan ``  
 Stemming is not only helpful in reducing redundancies in the text as a preprocessing step, but also used in search engine applications and domain analysis for determining domain vocabularies  
 Porter's stemming method is a rule-based approache introduces by Martin Porter in 1980. Like any method, this method has failure points , `` computer -> comput ``  
+There are many other stemming available with NLTK , such as SnowballStemmer adn ARLSTem
+** You will find Stemming code in stemming.py file**
