@@ -133,4 +133,6 @@ Lowercasing is a more popular choice among practitioners to standardize text
 **you will find lower casing code in lower.py**
 ### Stemming ( Day 15)
 Stemming is the process of producing morphological varaints of a root word These methods help convert a word into base form called the stem  
-`` scanned -> scan ``
+`` scanned -> scan ``  
+Stemming is not only helpful in reducing redundancies in the text as a preprocessing step, but also used in search engine applications and domain analysis for determining domain vocabularies.
+   
