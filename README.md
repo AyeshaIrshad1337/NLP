@@ -134,5 +134,5 @@ Lowercasing is a more popular choice among practitioners to standardize text
 ### Stemming ( Day 15)
 Stemming is the process of producing morphological varaints of a root word These methods help convert a word into base form called the stem  
 `` scanned -> scan ``  
-Stemming is not only helpful in reducing redundancies in the text as a preprocessing step, but also used in search engine applications and domain analysis for determining domain vocabularies.
-   
+Stemming is not only helpful in reducing redundancies in the text as a preprocessing step, but also used in search engine applications and domain analysis for determining domain vocabularies  
+Porter's stemming method is a rule-based approache introduces by Martin Porter in 1980. Like any method, this method has failure points , `` computer -> comput ``  
