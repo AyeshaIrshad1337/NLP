@@ -132,3 +132,5 @@ For Application where 'Natural Language Processing' , 'natural language processi
 Lowercasing is a more popular choice among practitioners to standardize text
 **you will find lower casing code in lower.py**
 ### Stemming ( Day 15)
+Stemming is the process of producing morphological varaints of a root word These methods help convert a word into base form called the stem  
+`` scanned -> scan ``
