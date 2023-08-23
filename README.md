@@ -140,3 +140,5 @@ There are many other stemming available with NLTK , such as SnowballStemmer adn 
 **You will find Stemming code in Stemming.ipynb file**
 ## Lemmatization ( Day 16)
 Lemmatization is  a process of extracing the root word by considering the various words in vocabulary that convery a similar meaning, Lemmatization involves morphological analysis of words that remove inflectional endings only to return a base word called lemma
+**For example** lemmtizing the word caring would result in care, where as stemming word would result in car.
+**you will find Lemmatization code in lemma.ipynb**
