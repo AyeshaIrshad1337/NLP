@@ -138,3 +138,4 @@ Stemming is not only helpful in reducing redundancies in the text as a preproces
 Porter's stemming method is a rule-based approache introduces by Martin Porter in 1980. Like any method, this method has failure points , `` computer -> comput ``  
 There are many other stemming available with NLTK , such as SnowballStemmer adn ARLSTem
 **You will find Stemming code in Stemming.ipynb file**
+## Lemmatization ( Day 16)
