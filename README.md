@@ -139,3 +139,4 @@ Porter's stemming method is a rule-based approache introduces by Martin Porter i
 There are many other stemming available with NLTK , such as SnowballStemmer adn ARLSTem
 **You will find Stemming code in Stemming.ipynb file**
 ## Lemmatization ( Day 16)
+Lemmatization is  a process of extracing the root word by considering the various words in vocabulary that convery a similar meaning, Lemmatization involves morphological analysis of words that remove inflectional endings only to return a base word called lemma
