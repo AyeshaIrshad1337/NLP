@@ -142,3 +142,5 @@ There are many other stemming available with NLTK , such as SnowballStemmer adn 
 Lemmatization is  a process of extracing the root word by considering the various words in vocabulary that convery a similar meaning, Lemmatization involves morphological analysis of words that remove inflectional endings only to return a base word called lemma
 **For example** lemmtizing the word caring would result in care, where as stemming word would result in car.
 **you will find Lemmatization code in lemma.ipynb**
+# Example Scenario 01: ( Day 17 )
+Cleaning is customized based on noise observed orr expected in the data. Let's say you have your text from social media. So it has a lot of punctuation
