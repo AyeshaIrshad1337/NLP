@@ -143,4 +143,4 @@ Lemmatization is  a process of extracing the root word by considering the variou
 **For example** lemmtizing the word caring would result in care, where as stemming word would result in car.
 **you will find Lemmatization code in lemma.ipynb**
 # Example Scenario 01: ( Day 17 )
-Cleaning is customized based on noise observed orr expected in the data. Let's say you have your text from social media. So it has a lot of punctuation
+Cleaning is customized based on noise observed orr expected in the data. Let's say you have your text from social media. So it has a lot of punctuations, URLs, and special character. You want to build a content category classification model based on word occurrrence counts. Thus, all you need for your applications is words and maybe numbers. To do so, let's clean the text by removing everything 
