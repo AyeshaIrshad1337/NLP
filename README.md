@@ -149,3 +149,6 @@ Additionally, we'll remove stop worrds. All these steps together will prepare yo
 ## Visualization (Day 18):
 The most popular library in python for representing text is wordcloud. Word cloud allows you to generate visualization on a body of text, where the frequency of words/phrrases is correlated with the size of the word/phrase on the plot along with its opacity.  
 **You will find code in visual.ipynb**
+##  ScatterTExt (day 19) :
+Scatextter allows you to extract terms in a body of text and visualized as an interactive HTML display.
+**You will find the code in ScatterText.ipynb**
