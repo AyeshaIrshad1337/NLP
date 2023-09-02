@@ -157,4 +157,6 @@ When the data available is not suffice for the task we have few methods to deal 
 + Hand curating more sample, accessing similar public datasets, or purchasing relevant data from data vendors.  
 **What if you couldn't find data source**
 Data Augmentation refers to artificially sysnthesizing data samples based on the sample present.  
-For images simply rotating an image replacing colors, adding blurs/noise, and such simple modifications help generate new data samples. For text, the problem is a bit more challenging. Popular techniques include word replacements in text. However, replacing by another or has a synonym.  
+For images simply rotating an image replacing colors, adding blurs/noise, and such simple modifications help generate new data samples. For text, the problem is a bit more challenging. Popular techniques include word replacements in text. However, replacing by another or has a synonym. Nonetheless, it serves as a opilar technique to augment text data and works well for many cases.  
+### Quick Note : 
++ technique may work for someone, it may not apply to the data you are dealing with. 
