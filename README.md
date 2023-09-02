@@ -154,4 +154,6 @@ Scatextter allows you to extract terms in a body of text and visualized as an in
 **You will find the code in ScatterText.ipynb**
 # Data Augmentation
 When the data available is not suffice for the task we have few methods to deal with it.  
-+ Hand curating more sample, accessing similar public datasets, or purchasing relevant data from data vendors
++ Hand curating more sample, accessing similar public datasets, or purchasing relevant data from data vendors.  
+**What if you couldn't find data source**
+Data Augmentation refers to artificially sysnthesizing data samples based on the sample present.  
