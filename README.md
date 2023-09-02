@@ -162,3 +162,4 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
 + technique may work for someone, it may not apply to the data you are dealing with. 
 
 **Python library for augmentation data are : pyAugmentText,nlpaug, and TextAugment**
+**You will find augmentation code in augment.ipynb**
