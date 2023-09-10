@@ -152,7 +152,7 @@ The most popular library in python for representing text is wordcloud. Word clou
 ##  ScatterTExt (day 19) :
 Scatextter allows you to extract terms in a body of text and visualized as an interactive HTML display.
 **You will find the code in ScatterText.ipynb**
-# Data Augmentation
+# Data Augmentation (day 20)
 When the data available is not suffice for the task we have few methods to deal with it.  
 + Hand curating more sample, accessing similar public datasets, or purchasing relevant data from data vendors.  
 **What if you couldn't find data source**
@@ -163,3 +163,9 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
 
 **Python library for augmentation data are : pyAugmentText,nlpaug, and TextAugment**
 **You will find augmentation code in augment.ipynb**
+ # Data Transformation :  
+  ## Encoding   
+  There are two types of Encoding:
+  + Label Encoding (Code will be found in LabelEncoding.ipynb)
+  + One Hot encoding (Code will be found in OneHotEncoding.ipynb)
+  
