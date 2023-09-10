@@ -164,7 +164,7 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
 **Python library for augmentation data are : pyAugmentText,nlpaug, and TextAugment**
 **You will find augmentation code in augment.ipynb**
  # Data Transformation :  
-  ## Encoding   
+  ## Encoding (Day 21)   
   There are two types of Encoding:
   + Label Encoding (Code will be found in LabelEncoding.ipynb)
   + One Hot encoding (Code will be found in OneHotEncoding.ipynb)
