@@ -169,5 +169,6 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
   + Label Encoding (Code will be found in LabelEncoding.ipynb)
   + One Hot encoding (Code will be found in OneHotEncoding.ipynb)
   # Frequency-based vectorizers  
-  Text can be passed through vectorization techniques which work by breaking down the text into tokens (also called terms) and counting token occurrences in the text. Tokens can be single words, n-grams, or phrases.
-  
+  Text can be passed through vectorization techniques which work by breaking down the text into tokens (also called terms) and counting token occurrences in the text. Tokens can be single words, n-grams, or phrases.  
+  ## Count Vectorization  (Day 23):  
+  A count vector is formed using the count of occurences of terms comprising the text. For example 'I Like NLP like ML' -> 'I': 1, 'like':2,'NLP':1,'ML':1  
