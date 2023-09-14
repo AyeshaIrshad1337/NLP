@@ -173,3 +173,7 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
   ## Count Vectorization  (Day 23):  
   A count vector is formed using the count of occurences of terms comprising the text. For example 'I Like NLP like ML' -> 'I': 1, 'like':2,'NLP':1,'ML':1  
 **you will find its code in CountVector.ipynb**
+  ## Hash vectorizer(Day 24):    
++ map data of arbitrary size to fixed size values.
++ term frequency counts are passed through a hash function that transform the collection of documents into a sparse numerical matrix.  
+**One advanatage over a count vectorizer is taht a count vector can get large if the corpus is large. Hash Vectorizer stores the tokens as numberical values as opposed **
