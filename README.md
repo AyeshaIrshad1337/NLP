@@ -176,4 +176,4 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
   ## Hash vectorizer(Day 24):    
 + map data of arbitrary size to fixed size values.
 + term frequency counts are passed through a hash function that transform the collection of documents into a sparse numerical matrix.  
-**One advanatage over a count vectorizer is taht a count vector can get large if the corpus is large. Hash Vectorizer stores the tokens as numberical values as opposed **
+**One advanatage over a count vectorizer is taht a count vector can get large if the corpus is large. Hash Vectorizer stores the tokens as numberical values as opposed to a string. The disadvantage of a hash vectorizer is that the features can't be retrieved once the vector is formed**
