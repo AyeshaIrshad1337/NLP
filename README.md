@@ -181,3 +181,4 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
  ## Term Frequency - inverse document frequenct (TF-IDF Day 25):
  TF-IDF is the count of the frequency of occurrences of tokens (also called terms) comprising the document, downweighed by importance of the terms which is calculated by dividing numvers of document frequency for a term is defined as the number of document a term is contained in divided by the total no. of documents. IDF is just the inverse of that. The IDF reflects how important each term is in a particular document frequency counts will be high, resulting in a low IDF. It is a common practice to have a threshold for min_df and max_df to ignore very highly occuring terms and very rare terms.  
  `Mathematically : TF-IDF=TF(t,d)*IDF(t)`
+ **You will find TF-IDF code in Tf-TDf.ipynb**
