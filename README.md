@@ -183,3 +183,7 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
  `Mathematically : TF-IDF=TF(t,d)*IDF(t)`
  **You will find TF-IDF code in Tf-TDf.ipynb**  
  ## Co-occurrence matrix (Day 26):
+ + Relationship between teh terms that occur together in a content.  
+ + used for representation of indication of connection between notions.  
+ ### A sample:   
+ ![Alt text](image.png)  
