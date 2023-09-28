@@ -187,3 +187,5 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
  + used for representation of indication of connection between notions.  
  ### A sample:   
  ![Alt text](image.png)  
+   
+**You will find Co-occurence matrix in Co_matrix.ipynb**
