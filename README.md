@@ -188,4 +188,16 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
  ### A sample:   
  ![Alt text](image.png)  
    
-**You will find Co-occurence matrix in Co_matrix.ipynb**
+**You will find Co-occurence matrix in Co_matrix.ipynb**  
+# Word Embedding  
+## Wrod2Vec(day 27):  
++ shallow two-layer neural networks having once input layer, one hidden layer and one output layer.  
++ Word2Vec utilize two models.
+A sentence is divided into groups of n words. The model is trained by sliding the window of n words.  
+        + continuous bag of words (CBOW):  
+          CBOW predicts the current word based on other words within the same context in a specific n-word window. The input layer of the neural network is the context words and the output layer contains the current word.
+        + Skip gram:
+           Skip gram works the other way round. It predicts the surrounding context words for an input word.  
+The main disadvantage of Word2Vec is that you will not have a vector represting a word taht doest not exist in the corpus.  
+You can produce Wrod2Vec embeddings using the library Gensim or spaCy.
+
