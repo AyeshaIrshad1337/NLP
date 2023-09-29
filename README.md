@@ -191,6 +191,7 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
 **You will find Co-occurence matrix in Co_matrix.ipynb**  
 # Word Embedding  
 ## Wrod2Vec(day 27):  
+Word2Vec is trained on the Google News Dataset, which contains about 100 billion words.  
 + shallow two-layer neural networks having once input layer, one hidden layer and one output layer.  
 + Word2Vec utilize two models.
 A sentence is divided into groups of n words. The model is trained by sliding the window of n words.  
@@ -200,4 +201,5 @@ A sentence is divided into groups of n words. The model is trained by sliding th
            Skip gram works the other way round. It predicts the surrounding context words for an input word.  
 The main disadvantage of Word2Vec is that you will not have a vector represting a word taht doest not exist in the corpus.  
 You can produce Wrod2Vec embeddings using the library Gensim or spaCy.
+**You will find Word2Vec code in Word2Vec.ipynb**
 
