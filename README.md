@@ -202,4 +202,5 @@ A sentence is divided into groups of n words. The model is trained by sliding th
 The main disadvantage of Word2Vec is that you will not have a vector represting a word taht doest not exist in the corpus.  
 You can produce Wrod2Vec embeddings using the library Gensim or spaCy.  
 **You will find Word2Vec code in Word2Vec.ipynb**
-
+# FastText: (Day 28)  
+This architecture considers each character in a word while learning  the words experince
