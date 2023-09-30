@@ -203,4 +203,6 @@ The main disadvantage of Word2Vec is that you will not have a vector represting 
 You can produce Wrod2Vec embeddings using the library Gensim or spaCy.  
 **You will find Word2Vec code in Word2Vec.ipynb**
 # FastText: (Day 28)  
-This architecture considers each character in a word while learning  the words experince
+This architecture considers each character in a word while learning  the words representations  
+Since fastText uses character level details on a word, it is able to compute vectors for unseen words conatining the characters it has seen before.  
+One disadvantage off this method is that unrelated words conatining similar character/alphabets may result in being close in the vector space without semantic closeness
