@@ -206,3 +206,4 @@ You can produce Wrod2Vec embeddings using the library Gensim or spaCy.
 This architecture considers each character in a word while learning  the words representations  
 Since fastText uses character level details on a word, it is able to compute vectors for unseen words conatining the characters it has seen before.  
 One disadvantage off this method is that unrelated words conatining similar character/alphabets may result in being close in the vector space without semantic closeness
+**You can find the code of FastText in fasttext.ipynb**
