@@ -207,3 +207,8 @@ This architecture considers each character in a word while learning  the words r
 Since fastText uses character level details on a word, it is able to compute vectors for unseen words conatining the characters it has seen before.  
 One disadvantage off this method is that unrelated words conatining similar character/alphabets may result in being close in the vector space without semantic closeness
 **You can find the code of FastText in fasttext.ipynb**
+# GloVe:: global vectors (Day 29)  
++ GloVe models train on co-occurrence counts of words and produces a vector by minimizing the lease square error.  
++ Each word in the corpus is assigned a random vector. If two words are used together often i.e they have high co-occurence, then those words are moved close in the vector space.  
++ After the various round of this process, the vector space representation approximates the information within the co-occurrence matrix.
++ In mathematical term the dot product of two word becomes approximately equal to the log of the probability of co-occurence of the words.
