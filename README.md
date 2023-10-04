@@ -213,3 +213,8 @@ One disadvantage off this method is that unrelated words conatining similar char
 + After the various round of this process, the vector space representation approximates the information within the co-occurrence matrix.
 + In mathematical term the dot product of two word becomes approximately equal to the log of the probability of co-occurence of the words.
 **You will find Glove code in GloVE.ipynb**
+# ELMo (Day 30):
+ELMo is a deep contextualized word representation model. It considers the complex characteristics of words and how they vary across different contexts. Each term is assigned a representation that is dependent on the entire input sentence. These embeddings are derived form a Bi_lSTM model.  
+ElMo can handle words with different contexts used in different sentences, which GloVE unable to. Thus the same word with multiple meanings can have a different embeddings
+**ELMo is trained on a large text corpus comprising 5.5 billion words**
+**You will find code in ELMo.ipynb**
