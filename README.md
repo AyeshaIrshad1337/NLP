@@ -218,3 +218,7 @@ ELMo is a deep contextualized word representation model. It considers the comple
 ElMo can handle words with different contexts used in different sentences, which GloVE unable to. Thus the same word with multiple meanings can have a different embeddings
 **ELMo is trained on a large text corpus comprising 5.5 billion words**
 **You will find code in ELMo.ipynb**
+# Universal Sentence Encoder Day (31)  
+Universal Sentence Encode model is based on transfer learning and is a sentence-level encode. It encodes text to high dimensional vectors and finds application in text classification, semantic similarity, clustering and more.  
+**It is trained on Wikipedia, web news, web question-answer pages and discussion forums**  
+**You will find its code in USE.ipynb**
