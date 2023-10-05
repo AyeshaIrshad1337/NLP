@@ -222,3 +222,6 @@ ElMo can handle words with different contexts used in different sentences, which
 Universal Sentence Encode model is based on transfer learning and is a sentence-level encode. It encodes text to high dimensional vectors and finds application in text classification, semantic similarity, clustering and more.  
 **It is trained on Wikipedia, web news, web question-answer pages and discussion forums**  
 **You will find its code in USE.ipynb**
+## Transformer (Day 32):  
+There are many models offered with sentence-transformers that can be used to generate embeddings. Different models are suitable for different applications.
+**You will find transformer code in transformer.ipynb**
