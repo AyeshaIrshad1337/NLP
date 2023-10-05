@@ -223,5 +223,6 @@ Universal Sentence Encode model is based on transfer learning and is a sentence-
 **It is trained on Wikipedia, web news, web question-answer pages and discussion forums**  
 **You will find its code in USE.ipynb**
 ## Transformer (Day 32):  
-There are many models offered with sentence-transformers that can be used to generate embeddings. Different models are suitable for different applications.
+There are many models offered with sentence-transformers that can be used to generate embeddings. Different models are suitable for different applications.  
+  
 **You will find transformer code in transformer.ipynb**
