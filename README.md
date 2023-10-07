@@ -232,3 +232,8 @@ Many NLP applications in NLP comprise tasks such as computing similarity between
 Moreover, the similarity measure can be in different contexts. Are the words related in the way they are spelled or sound? are the words similar in their meaning? 
 Lets found out by looking into some famous and well known similarity metric below :
 ### Character based-similarity (Day 33):  
+Character level similarity looks at how different two string are from one anotehr based on characters with in.  
+A poular approach to measure this difference is called Longest Common Sub-string, which finds the maximum length of a contiguous chain of character from both strings being compared. Applications include data deduplication and plagiarism detection.  
+Another popular measure is called Levenshtein edit distance. This distance is calculated between two strings by counnting the minimum number of operations needed to tranform one string into the other. The operations include insertion, deletion, replacement, or subsitution of a character. A common application is seppling correction.  
+Hamming distance refferes to the number of positions with same character in both strings. This only works on strings with the same length.  
+**You will find the code in pyStringMatching.ipynb**
