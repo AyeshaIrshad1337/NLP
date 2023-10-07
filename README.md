@@ -231,3 +231,4 @@ There are many models offered with sentence-transformers that can be used to gen
 Many NLP applications in NLP comprise tasks such as computing similarity between two pieces of text. This can be at different levels - word level, phase level, sentence level, and document level. The interest may be to find syntactic similarity or semantic simialrity.  
 Moreover, the similarity measure can be in different contexts. Are the words related in the way they are spelled or sound? are the words similar in their meaning? 
 Lets found out by looking into some famous and well known similarity metric below :
+### Character based-similarity (Day 33):  
