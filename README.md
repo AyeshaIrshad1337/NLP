@@ -226,3 +226,5 @@ Universal Sentence Encode model is based on transfer learning and is a sentence-
 There are many models offered with sentence-transformers that can be used to generate embeddings. Different models are suitable for different applications.  
   
 **You will find transformer code in transformer.ipynb**
+# Data Modeling
+## Distance Metric  
