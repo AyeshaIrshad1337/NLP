@@ -2,8 +2,8 @@
 What is NLP?  
 NLP = natural learning Programmin
 <details>
- <summary># Day 1</summary><blockquote>
-## Libraries Download
+ <summary> <h2> Libraries Download </h2></summary><blockquote>
+
 + nltk : `!pip install nltk`
 + spacy:  `!pip install spaCy`
 + Gensim:  `!pip install gensim`
@@ -25,7 +25,10 @@ NLP = natural learning Programmin
 + PyTorch https://pytorch.org
 + Hugging Face transformers https://huggingface.co/docs/transformers/main/en/index
 + JAX https://jax.readthedocs.io/en/latest/notebooks/quickstart.html
-# Day 2
+</details>  
+<details> 
+<summary><h2>DataSet Resources</h2></summary><blockquote> 
+
 ## you can access dataset from these website
 + https://archive.ics.uci.edu/ml/datasets.php
 + https://snap.stanford.edu/data/web-Amazon.html
@@ -74,10 +77,13 @@ NLP = natural learning Programmin
 
 + https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/
 </details>  
+<details>
 
-## Reading from a Word Document
+<summary<h2>>Reading from a Word Document</h2></summary>  
+
 + To read the Word Document you need to install python-docx library
 The whole step is shown in file name **RWordDoc.ipynb**
+</details>
 ## Data Preprocessing in NLP
 It involves
 + Data cleaning and preprocessing
@@ -86,8 +92,13 @@ It involves
 + Distance metrics
 + Modeling
 + Model Evaluation
-### Segmentation
+<details> 
+<summary> <h2>
+ Segmentation
+ </h2> </summary>
+   
 While running Segmentation.ipynb file from repo , run this command in bash : python -m spacy download en_core_web_sm
+</details>
 ### WOrd tokenization 
 YOu will find the repo by name of WordTokenization.ipynb   
 Word Tokenization can be done by three different library textblob, Nltk, Spacy .. you will find the example code in the repo
