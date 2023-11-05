@@ -77,13 +77,14 @@ NLP = natural learning Programmin
 
 + https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/
 </details>  
-<details>
 
-<summary<h2>>Reading from a Word Document</h2></summary>  
+<details>
+<summary><h2>Reading from a Word Document</h2></summary>  
 
 + To read the Word Document you need to install python-docx library
 The whole step is shown in file name **RWordDoc.ipynb**
 </details>
+
 ## Data Preprocessing in NLP
 It involves
 + Data cleaning and preprocessing
@@ -93,39 +94,55 @@ It involves
 + Modeling
 + Model Evaluation
 <details> 
-<summary> <h2>
- Segmentation
- </h2> </summary>
-   
-While running Segmentation.ipynb file from repo , run this command in bash : python -m spacy download en_core_web_sm
-</details>
-### WOrd tokenization 
+<summary><h2>Segmentation</h2> </summary>
+  
+While running Segmentation.ipynb file from repo , run this command in bash : `python -m spacy download en_core_web_sm` 
+  
+</details>  
+ <details>
+<summary><h2> Word tokenization</h2></summary> 
 YOu will find the repo by name of WordTokenization.ipynb   
 Word Tokenization can be done by three different library textblob, Nltk, Spacy .. you will find the example code in the repo
-### Part of Speech Tagging (Day 7)
-You will find the code in POS.ipynb  
+</details>
+<details>
+<summary><h2>Part of Speech Tagging</h2></summary>
+  
+ You will find the code in POS.ipynb  
 Part Of speech is also known as POS tagging
 it might be desired to retain only certain parts of speech, such as nouns. The use cases can be cleaning data before creating a word-counts (bag-of-words) model or further processing that depends on parts of speech, such as named entity recognition (where two nouns occurring together are likely first and last names of a person) and keyphrase extraction.
-### N-grams
+</details> 
+<details>
+ <summary><h2>N-grams</h2></summary>  
+ 
 **You will find N-gram code in N-gram.ipynb file**
 N-grams are a contiguous Sequence of N elements. For instance "Natural", "Language" and "processing" are unigrams,"natural language" and "language processing" are bigrams, and "natural language processing" is the trigram of the strirng "natural language processing"  
 In many NLP feature generation methods, each word in a sentence is used as an independent unit (token) while encoding data. Instead, getting multi word pairs from a sentence can be beneficial for certain application that contain multi-word keywords or sentiment analysis.
 For example: "not happy" bigram versys 'happy' unigram can convet different sentiments for the sentence 'James is not happy'
-## Cleaning
-### Punctuation removal
-or many applications such as category classification and word visualizations, the words used in the text matter and the punctuation does not have relevance to the application. Punctuation can be removed using a regex expression.  
+</details>
+  
+ ## Cleaning
+  
+<details>
+<summary><h2> Punctuation removal</h2></summary>  
+ 
+For many applications such as category classification and word visualizations, the words used in the text matter and the punctuation does not have relevance to the application. Punctuation can be removed using a regex expression.  
 In regex: 
 + \m matches a newline character
 + \w is a word character that matches any single letter number, or underscore (same as [a-zA-Z0-9])
 + \s is for matching white spaces
 + ^ is for matching with everything except the pattren specified  
 **You will find Punctuation Removel code in PR.ipynb**
-### URL removal (Day 10)
+</details>
+ <details>
+ <summary><h2>URL removal</h2></summary>  
+  
 In language document URL removal can be beneficial in reducing overall text length and removing information that does not convet meaning for your application  
 In regex, \s matches all whits-spaces character and \S matches with non white spcaed characters
 + | stands for OR and can be used when we want to match multiple pattren with the OR logic.
 **You will find the code in url.ipynb file in this repo**
-### Emoji Removal (Day 11)
+ </details>
+ 
+ ### Emoji Removal (Day 11)
 Unicode is an international standard that maintains a mapping of individual character and unique number acrrross devices and programs.  
 Each character is represented as a code point.   
 These code point are encoded in bytes and can be decoded back to code points.
