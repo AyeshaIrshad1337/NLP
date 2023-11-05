@@ -237,3 +237,4 @@ A poular approach to measure this difference is called Longest Common Sub-string
 Another popular measure is called Levenshtein edit distance. This distance is calculated between two strings by counnting the minimum number of operations needed to tranform one string into the other. The operations include insertion, deletion, replacement, or subsitution of a character. A common application is seppling correction.  
 Hamming distance refferes to the number of positions with same character in both strings. This only works on strings with the same length.  
 **You will find the code in pyStringMatching.ipynb**
+~Due to some library issues this code is incomplete but we will continue our session~
