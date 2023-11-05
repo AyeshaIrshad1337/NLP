@@ -1,7 +1,8 @@
 # Natural Language Processing
 What is NLP?  
 NLP = natural learning Programmin
-# Day 1
+<details>
+ <summary># Day 1</summary><blockquote>
 ## Libraries Download
 + nltk : `!pip install nltk`
 + spacy:  `!pip install spaCy`
@@ -72,6 +73,7 @@ NLP = natural learning Programmin
 + https://www.imdb.com/interfaces/
 
 + https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/
+</details>
 ## Reading from a Word Document
 + To read the Word Document you need to install python-docx library
 The whole step is shown in file name **RWordDoc.ipynb**
@@ -230,11 +232,13 @@ There are many models offered with sentence-transformers that can be used to gen
 ## Distance Metric  
 Many NLP applications in NLP comprise tasks such as computing similarity between two pieces of text. This can be at different levels - word level, phase level, sentence level, and document level. The interest may be to find syntactic similarity or semantic simialrity.  
 Moreover, the similarity measure can be in different contexts. Are the words related in the way they are spelled or sound? are the words similar in their meaning? 
-Lets found out by looking into some famous and well known similarity metric below :
-### Character based-similarity (Day 33):  
+Lets found out by looking into some famous and well known similarity metric below : we will continue it later 
+<!-- ### Character based-similarity (Day 33):  
 Character level similarity looks at how different two string are from one anotehr based on characters with in.  
 A poular approach to measure this difference is called Longest Common Sub-string, which finds the maximum length of a contiguous chain of character from both strings being compared. Applications include data deduplication and plagiarism detection.  
 Another popular measure is called Levenshtein edit distance. This distance is calculated between two strings by counnting the minimum number of operations needed to tranform one string into the other. The operations include insertion, deletion, replacement, or subsitution of a character. A common application is seppling correction.  
 Hamming distance refferes to the number of positions with same character in both strings. This only works on strings with the same length.  
 ~**You will find the code in pyStringMatching.ipynb**~
--Due to some library issues this code is incomplete but we will continue our session-
+**-Due to some library issues this code is incomplete but we will continue our session-**
+### Phonetic Matching Day 34:-  
+Phonetic matching is similar between two words on how they may sound rather than their precise spelling. The process include creating an alphanumeric code for an input and comparing the code of two words. Applications include spelling corrections and searching large text corpora. Soundex and Metaphone are two popular phonetic algorihtm. -->
