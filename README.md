@@ -343,7 +343,7 @@ Lets found out by looking into some famous and well known similarity metric belo
 ### Semantic similarity metrics  
 + Calculated using numerical representation of text 
 <details>
-<summary><h4>Euclidean Distance</h4</summary>
+<summary><h4>Euclidean Distance</h4></summary>
   
 + distance between two points connecting a path.  
 + distance is useful when the length of text palys a role in determining similarity.  
