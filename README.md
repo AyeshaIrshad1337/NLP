@@ -101,7 +101,8 @@ While running Segmentation.ipynb file from repo , run this command in bash : `py
 </details>  
  <details>
 <summary><h2> Word tokenization</h2></summary> 
-YOu will find the repo by name of WordTokenization.ipynb   
+    
+You will find the repo by name of WordTokenization.ipynb   
 Word Tokenization can be done by three different library textblob, Nltk, Spacy .. you will find the example code in the repo
 </details>
 <details>
@@ -174,6 +175,7 @@ Stopwords refers to the commonly occuring words that help connect important term
  ## Standardization
 <details>
 <summary><h2>Lowercasing (Day 14)</h2></summary>
+   
 For Application where 'Natural Language Processing' , 'natural language processing' , and 'NATURAL LANGUAGE PROCESSING' convey the same meaning, you can lowercase your text or upper case.  
 Lowercasing is a more popular choice among practitioners to standardize text
 **you will find lower casing code in lower.py**
@@ -213,6 +215,7 @@ The most popular library in python for representing text is wordcloud. Word clou
 </details> 
 <details>
 <summary><h2>ScatterTExt (day 19) </h2></summary>
+   
 Scatextter allows you to extract terms in a body of text and visualized as an interactive HTML display.
 **You will find the code in ScatterText.ipynb**
 </details>
@@ -258,6 +261,7 @@ For images simply rotating an image replacing colors, adding blurs/noise, and su
 
 <details> 
  <summary><h2>Term Frequency - inverse document frequenct (TF-IDF Day 25)</h2></summary>
+   
  TF-IDF is the count of the frequency of occurrences of tokens (also called terms) comprising the document, downweighed by importance of the terms which is calculated by dividing numvers of document frequency for a term is defined as the number of document a term is contained in divided by the total no. of documents. IDF is just the inverse of that. The IDF reflects how important each term is in a particular document frequency counts will be high, resulting in a low IDF. It is a common practice to have a threshold for min_df and max_df to ignore very highly occuring terms and very rare terms.  
  `Mathematically : TF-IDF=TF(t,d)*IDF(t)`
  **You will find TF-IDF code in Tf-TDf.ipynb**  
@@ -292,6 +296,7 @@ You can produce Wrod2Vec embeddings using the library Gensim or spaCy.
     
 <details> 
  <summary><h1>FastText: (Day 28)</h1></summary>  
+   
 This architecture considers each character in a word while learning  the words representations  
 Since fastText uses character level details on a word, it is able to compute vectors for unseen words conatining the characters it has seen before.  
 One disadvantage off this method is that unrelated words conatining similar character/alphabets may result in being close in the vector space without semantic closeness
@@ -299,7 +304,8 @@ One disadvantage off this method is that unrelated words conatining similar char
 </details>
 
 <details>  
-<summary><h1>GloVe:: global vectors (Day 29)</h1></summary>  
+<summary><h1>GloVe:: global vectors (Day 29)</h1></summary>    
+   
 + GloVe models train on co-occurrence counts of words and produces a vector by minimizing the lease square error.  
 + Each word in the corpus is assigned a random vector. If two words are used together often i.e they have high co-occurence, then those words are moved close in the vector space.  
 + After the various round of this process, the vector space representation approximates the information within the co-occurrence matrix.
@@ -308,7 +314,8 @@ One disadvantage off this method is that unrelated words conatining similar char
 </details>
    
 <details>
- <summary><h1>ELMo (Day 30)</h1></summary>
+ <summary><h1>ELMo (Day 30)</h1></summary>  
+   
 ELMo is a deep contextualized word representation model. It considers the complex characteristics of words and how they vary across different contexts. Each term is assigned a representation that is dependent on the entire input sentence. These embeddings are derived form a Bi_lSTM model.  
 ElMo can handle words with different contexts used in different sentences, which GloVE unable to. Thus the same word with multiple meanings can have a different embeddings
 **ELMo is trained on a large text corpus comprising 5.5 billion words**
@@ -316,6 +323,7 @@ ElMo can handle words with different contexts used in different sentences, which
 </details>  
 <details>
 <summary><h2>Universal Sentence Encoder Day (31)</h2></summary>  
+   
 Universal Sentence Encode model is based on transfer learning and is a sentence-level encode. It encodes text to high dimensional vectors and finds application in text classification, semantic similarity, clustering and more.  
 **It is trained on Wikipedia, web news, web question-answer pages and discussion forums**  
 **You will find its code in USE.ipynb**
