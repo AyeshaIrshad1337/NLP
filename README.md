@@ -253,4 +253,9 @@ Hamming distance refferes to the number of positions with same character in both
 ~**You will find the code in pyStringMatching.ipynb**~
 **-Due to some library issues this code is incomplete but we will continue our session-**
 ### Phonetic Matching Day 34:-  
-Phonetic matching is similar between two words on how they may sound rather than their precise spelling. The process include creating an alphanumeric code for an input and comparing the code of two words. Applications include spelling corrections and searching large text corpora. Soundex and Metaphone are two popular phonetic algorihtm. -->
+Phonetic matching is similar between two words on how they may sound rather than their precise spelling. The process include creating an alphanumeric code for an input and comparing the code of two words. Applications include spelling corrections and searching large text corpora. Soundex and Metaphone are two popular phonetic algorihtm. -->  
+
+# Modeling  
+Generally, Model Represent a system. In data Science,
+<details>
+<summary><h2>Modeling</h2></summary>
