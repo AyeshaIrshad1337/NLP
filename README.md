@@ -349,7 +349,7 @@ Lets found out by looking into some famous and well known similarity metric belo
 + distance is useful when the length of text palys a role in determining similarity.  
 + if the length of the sentence is doubled by repeating the same sentence twice, the euclideaan distance will increase even though the sentence may have the same meaning.  
 
-*you will find euclidean distance code in euclidean_distance.ipynb*   
+**you will find euclidean distance code in euclidean_distance.ipynb**   
 </details>
   
 <details>
@@ -358,7 +358,7 @@ Lets found out by looking into some famous and well known similarity metric belo
 Cosine distance is the most popularly used metric for measuring distance when the difference in document lengths(magnitude of the vectors) do not matter. 
 + the occurences of terms within each sample follow to the same distribution   
 `Cosine similarity = 1 - Cosine distance`  
-*You will find its code in Cosine_dist.ipynb*
+**You will find its code in Cosine_dist.ipynb**
 </details>  
    
  *When To use Which metrics*  
