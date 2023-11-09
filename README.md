@@ -339,7 +339,30 @@ There are many models offered with sentence-transformers that can be used to gen
 ## Distance Metric  
 Many NLP applications in NLP comprise tasks such as computing similarity between two pieces of text. This can be at different levels - word level, phase level, sentence level, and document level. The interest may be to find syntactic similarity or semantic simialrity.  
 Moreover, the similarity measure can be in different contexts. Are the words related in the way they are spelled or sound? are the words similar in their meaning? 
-Lets found out by looking into some famous and well known similarity metric below : we will continue it later 
+Lets found out by looking into some famous and well known similarity metric below : 
+### Semantic similarity metrics  
++ Calculated using numerical representation of text 
+<details>
+<summary><h4>Euclidean Distance</h4</summary>
+  
++ distance between two points connecting a path.  
++ distance is useful when the length of text palys a role in determining similarity.  
++ if the length of the sentence is doubled by repeating the same sentence twice, the euclideaan distance will increase even though the sentence may have the smae meaning
+*you will find euclidean distance code in euclidean_distance.ipynb*   
+</details>
+  
+<details>
+<summary><h4>Cosine similarity</h4></summary>
+  
+Cosine distance is the most popularly used metric for measuring distance when the difference in document lengths(magnitude of the vectors) do not matter. 
++ the occurences of terms within each sample follow to the same distribution   
+`Cosine similarity = 1 - Cosine distance`
+*You will find its code in Cosine_dist.ipynb*
+</details>  
+   
+ *When To use Which metrics*  
+ `we build a numerical vector for each document that is computed based on the counts of words present. The magnitude of the vector may vary if the counts of words in two sentence is differ, eveb though the two sentences are similar otherwise. This will give rise to a higher Euclidean distance. The main advantage of cosine similarity is that it does not depend on the length difference. If the two similar documents are far apart by the Euclidean distance becuase of the length,(for example 50 occurrences of the word "basketball" in one document versus 10 occurrences of the same word in another) they could still have a smaller angle between them. Smaller the angle, the higher the similarity`
+
 <!-- ### Character based-similarity (Day 33):  
 Character level similarity looks at how different two string are from one anotehr based on characters with in.  
 A poular approach to measure this difference is called Longest Common Sub-string, which finds the maximum length of a contiguous chain of character from both strings being compared. Applications include data deduplication and plagiarism detection.  
