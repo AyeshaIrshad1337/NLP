@@ -375,6 +375,15 @@ Hamming distance refferes to the number of positions with same character in both
 Phonetic matching is similar between two words on how they may sound rather than their precise spelling. The process include creating an alphanumeric code for an input and comparing the code of two words. Applications include spelling corrections and searching large text corpora. Soundex and Metaphone are two popular phonetic algorihtm. -->  
 
 # Modeling  
-Generally, Model Represent a system. In data Science,
-<details>
-<summary><h2>Modeling</h2></summary>
+Generally, Model Represent a system. In data Science, a model can be software that consist of logical operations being performed on the input data resulting in an output. A simple example is checking whether  the input is in the list and return the corresponding values   
+![Alt text](image-1.png)  
+Machine Learning ALgorithm model that follows a different set of steps for processing input data.
+## Supervised Learning
+Label data is required to train the model to learn the input-output relationships. Supervised Learning Problem work on two different types  
++ Classification -- (Output is Categorical)  
++ Regression -- (Output is continuous)  
+## UnSupervised Learning 
+UnLabel Data to traint he model to learn the input-output relationship
+![Alt text](image-2.png)  
+### Different type of clustering 
+![Alt text](image-3.png)
